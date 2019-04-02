@@ -4,13 +4,13 @@ This is an implementation of Neural Style Transfer algorithm using Tensorflow. T
 
 The core idea is to use the filter responses from different layers (ie the activation values of the layers) of a convolutional network to build the style. Filter responses from different layers (ranging from lower to higher) captures from low level details (strokes, points, corners) to high level details (patterns, objects, etc) is used to modify the content image, i.e. apply the style on content image, and thus "generate" the final "painted" image.
 
-Here's an example:
+<b>Here's an example:</b>
 
-<b>Content (original) image: ("The Milkmaid", by Raja Ravi Varma, 1904)</b>
+<b>Content/original image: ("The Milkmaid", by Raja Ravi Varma, 1904)</b>
 
 <img src="samples/RRV-the-milkmaid.jpg" width="400px" height="600px"/>
 
-<b>Style image: (Self-Portrait with a Straw Hat" by Vincent van Gogh, 1887)</b>
+<b>Style image: ("Self-Portrait with a Straw Hat" by Vincent van Gogh, 1887)</b>
 
 <img src="samples/Van_Gogh-Style-400x600.jpg" width="400px" height="600px"/>
 
