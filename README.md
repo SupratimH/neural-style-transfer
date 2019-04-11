@@ -1,4 +1,11 @@
 # Neural Style Transfer : Generating art using Deep Learning
+
+## Table of Contents
+- [Introduction and Explanation](#programatically-painting-an-image-following-the-style-of-another-image-using-neural-style-transfer-algorithm)
+- [Instruction to run this code](#instructions-to-run-this-code)
+- [Dependencies](#dependencies)
+- [References](#references)
+
 ## Programatically painting an image following the style of another image using Neural Style Transfer algorithm
 This is an implementation of Neural Style Transfer algorithm using Tensorflow. The NST algorithm was created by Leon A. Gatys, Alexander S. Ecker and Matthias Bethge, as described in the famous paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576).
 
